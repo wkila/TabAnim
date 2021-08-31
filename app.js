@@ -37,6 +37,8 @@ function dragleave(event) {
 function dragdrop(event) {
     event.target.classList.remove('hovered')
     event.target.append(item)
+    console.dir(event.target)
+    console.log(event.target)
 }
 
 
